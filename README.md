@@ -1,19 +1,23 @@
 # bash-function
 
-function doco() {
-        docker-compose -p $1 up
-}
+## docker compose
+* function doco() {
+*        docker-compose -p $1 up
+* }
 
-function runGesco(){
-        cd www/contact_europe_gesco/docker
-        doco gesco
-}
+## run gesco
+* function runGesco(){
+*        cd www/contact_europe_gesco/docker
+*        doco gesco
+* }
 
-function runMd(){
-        cd www/contact_europe_masterdata/docker
-        doco masterdata
-}
+## run masterdata
+* function runMd(){
+*        cd www/contact_europe_masterdata/docker
+*       doco masterdata
+* }
 
-function install(){
-        sudo apt-get install $1
-}
+## install
+* function install(){
+*        sudo apt-get install $1
+* }
